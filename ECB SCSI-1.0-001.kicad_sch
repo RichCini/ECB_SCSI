@@ -1,0 +1,312 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 974cd15c-4d32-4902-9ca6-346e3f962d4c)
+
+  (paper "A4")
+
+  (title_block
+    (title "ECB SCSI-1.0")
+    (date "2020-12-30")
+    (rev "001")
+    (company "RetroBrew Computers Group")
+    (comment 1 "Licensed for hobbyist use only.")
+    (comment 2 "Copyright (c) 2020 Richard Cini. All Rights Reserved.")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 31.75 33.02) (size 25.4 15.24) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005dea9f4e)
+    (property "Sheet name" "ECB Bus Interface" (id 0) (at 31.75 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "ECBBusInterface.kicad_sch" (id 1) (at 31.75 48.8446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 68.58 33.02) (size 25.4 15.24) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005dea9fb1)
+    (property "Sheet name" "Bus Drivers" (id 0) (at 68.58 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "BusDrivers.kicad_sch" (id 1) (at 68.58 48.8446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 173.99 33.02) (size 22.86 15.24) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005df072ea)
+    (property "Sheet name" "Spare Gates" (id 0) (at 173.99 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Spares.kicad_sch" (id 1) (at 173.99 48.8446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 106.68 33.02) (size 25.4 15.24) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005e0990cf)
+    (property "Sheet name" "SCSI Controller" (id 0) (at 106.68 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "SCSI.kicad_sch" (id 1) (at 106.68 48.8446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-00005dea9f4e" (page "2"))
+    (path "/00000000-0000-0000-0000-00005dea9fb1" (page "3"))
+    (path "/00000000-0000-0000-0000-00005e0990cf" (page "4"))
+    (path "/00000000-0000-0000-0000-00005df072ea" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00004db8ddd5"
+      (reference "#FLG0201") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00005ed43d41"
+      (reference "#FLG0202") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00004dab03a6"
+      (reference "#PWR0201") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-000052451059"
+      (reference "#PWR0202") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-000052451112"
+      (reference "#PWR0203") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00004dab0eca"
+      (reference "#PWR0204") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-000056c4e39d"
+      (reference "#PWR0301") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-000056c4e31f"
+      (reference "#PWR0302") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005e078436"
+      (reference "#PWR0303") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005e08299d"
+      (reference "#PWR0304") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005e16bb2b"
+      (reference "#PWR0305") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005e16bb4c"
+      (reference "#PWR0306") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005e081f52"
+      (reference "#PWR0307") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005e13ec7b"
+      (reference "#PWR0308") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005e16bb90"
+      (reference "#PWR0309") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005e16bb8a"
+      (reference "#PWR0310") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005e57be53"
+      (reference "#PWR0401") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005e57c695"
+      (reference "#PWR0402") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005e71f79b"
+      (reference "#PWR0403") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005e71fd9a"
+      (reference "#PWR0404") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005e0c3c32"
+      (reference "#PWR0501") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005e0c3205"
+      (reference "#PWR0502") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005df46391"
+      (reference "#PWR0503") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005e0c295e"
+      (reference "#PWR0504") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-0000524510af"
+      (reference "C201") (unit 1) (value "47uF") (footprint "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00005e0a2170"
+      (reference "C202") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00005e0b8a9e"
+      (reference "C203") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00005deefb3c"
+      (reference "C204") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00005def51fe"
+      (reference "C205") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00005def5208"
+      (reference "C206") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00005defb249"
+      (reference "C207") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00005defb253"
+      (reference "C208") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00005df02020"
+      (reference "C209") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00005e05effa"
+      (reference "C210") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00005deec12b"
+      (reference "C211") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00005fec9c3e"
+      (reference "C212") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00006019bcf4"
+      (reference "C213") (unit 1) (value "10uF") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00006019c62b"
+      (reference "C214") (unit 1) (value "10uF") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005df8c4e5"
+      (reference "D501") (unit 1) (value "1N4001") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9f4e/00000000-0000-0000-0000-00004daaff95"
+      (reference "DIN201") (unit 1) (value "C96ABC") (footprint "RAC_Custom:C96ABCM-RA")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005e0aaf48"
+      (reference "J501") (unit 1) (value "DACK") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005ded4515"
+      (reference "J502") (unit 1) (value "SCSI_ID") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005e0a5e23"
+      (reference "J503") (unit 1) (value "TERM_PWR") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005e0a890e"
+      (reference "J504") (unit 1) (value "SCSI BUSS") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-000056c51340"
+      (reference "K301") (unit 1) (value "RESET") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005fec49c8"
+      (reference "K302") (unit 1) (value "RD_SRC") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005dec6c63"
+      (reference "P301") (unit 1) (value "INTR") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005e16bb01"
+      (reference "P302") (unit 1) (value "BOARD SELECT") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005ded887e"
+      (reference "RN501") (unit 1) (value "4.7KQ") (footprint "Resistor_THT:R_Array_SIP10")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005e0a1e99"
+      (reference "RN502") (unit 1) (value "330Q") (footprint "Resistor_THT:R_Array_SIP10")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005e0a3a78"
+      (reference "RN503") (unit 1) (value "220Q") (footprint "Resistor_THT:R_Array_SIP10")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005e0a54c1"
+      (reference "RN504") (unit 1) (value "220Q") (footprint "Resistor_THT:R_Array_SIP10")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005e0a5266"
+      (reference "RN505") (unit 1) (value "330Q") (footprint "Resistor_THT:R_Array_SIP10")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-000056c4de7d"
+      (reference "U301") (unit 1) (value "74LS244") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-000056c4e397"
+      (reference "U302") (unit 1) (value "74LS244") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005e16baf8"
+      (reference "U303") (unit 1) (value "74LS138") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-000056c4de6e"
+      (reference "U304") (unit 1) (value "74LS245") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005e16bb08"
+      (reference "U305") (unit 1) (value "74ALS139") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005e16bb98"
+      (reference "U305") (unit 2) (value "74ALS139") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dea9fb1/00000000-0000-0000-0000-00005e16bb84"
+      (reference "U305") (unit 3) (value "74ALS139") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005decede7"
+      (reference "U401") (unit 1) (value "74LS32") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005e04f1c1"
+      (reference "U401") (unit 2) (value "74LS32") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005e051d6a"
+      (reference "U401") (unit 3) (value "74LS32") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005e054e68"
+      (reference "U401") (unit 4) (value "74LS32") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005e058c2f"
+      (reference "U401") (unit 5) (value "74LS32") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005e70f6ac"
+      (reference "U402") (unit 1) (value "74LS00") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005ff012a2"
+      (reference "U402") (unit 2) (value "74LS00") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005e71705b"
+      (reference "U402") (unit 3) (value "74LS00") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005e71a3ae"
+      (reference "U402") (unit 4) (value "74LS00") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005e71d17a"
+      (reference "U402") (unit 5) (value "74LS00") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005e57865a"
+      (reference "U403") (unit 1) (value "74LS74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005e57a403"
+      (reference "U403") (unit 2) (value "74LS74") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005e57af7c"
+      (reference "U403") (unit 3) (value "74LS74") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005fee15e8"
+      (reference "U404") (unit 1) (value "74LS06") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-000060073756"
+      (reference "U404") (unit 2) (value "74LS06") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005df072ea/00000000-0000-0000-0000-00005fedb7ea"
+      (reference "U404") (unit 7) (value "74LS06") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005ded2272"
+      (reference "U501") (unit 1) (value "74LS244") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
+    )
+    (path "/00000000-0000-0000-0000-00005e0990cf/00000000-0000-0000-0000-00005e0a6801"
+      (reference "U502") (unit 1) (value "NCR5380") (footprint "Package_DIP:DIP-40_W15.24mm")
+    )
+  )
+)
